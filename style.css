@@ -1,0 +1,14 @@
+.corpo {
+    margin-left: 2%;
+    margin-top: 2%;
+}
+
+#caixaDeTexto {
+    border: solid 1px black;
+}
+.editando{
+    list-style-type: none;
+   
+}
+
+
