@@ -15,21 +15,17 @@
     <div class="container">
         <h1>Lista de tarefas</h1>
 
-        <div id="userInput">
-            <input id="novoItem" type="text">
-            <input id="inserir" type="button" value="Inserir" onclick="mostrarMensagem()">
+        <div class="userInput">
+            <input id="novoItem" type="text" placeholder="Escreva um novo item">
+            <input id="inserir" type="button" value="Inserir" onclick="inserirItemTemplate()">
         </div>
 
         <div class="list"> 
             <ul id="lista">
                 <template id="modelo">
-                    <li class="teste">
-                        <input class="input" class="remover" type="button" value="Remover">
+                    <li class="li">
+                        <input class="remover" type="button" value="Remover" onclick="removerItem()">
                 </template>
-                <li class="teste">Exemplo 1
-                    <input class="input" class="remover" type="button" value="Remover">
-                <li class="teste">Exemplo 2
-                    <input class="input" class="remover" type="button" value="Remover">
             </ul>
         </div>
     </div>
